@@ -1,0 +1,94 @@
+body {
+    background-image: url("https://i.pinimg.com/736x/cd/18/e9/cd18e941f6f198f9c222d4f557c02745.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    min-height: 100vh;
+}
+.main-heading {
+    text-align: center;
+    color: #ffffff;
+    font-size: 26px;
+    margin: 30px 0;
+}
+.video-container {
+    text-align: center;
+    margin: 25px 0;
+    padding: 0;
+    background: none;
+    border: none;
+}
+.video-frame {
+    border: none;
+    border-radius: 0;
+}
+.video-description {
+    margin-top: 10px;
+    font-size: 15px;
+    color: #1a237e;
+    font-weight: 500;
+}
+.media-container {
+    text-align: center;
+    margin: 25px 0;
+    padding: 0;
+    background: none;
+    border: none;
+}
+.training-video-container {
+    text-align: center;
+    margin: 25px 0;
+    padding: 0;
+    background: none;
+    border: none;
+}
+.media-heading,
+.training-video-heading {
+    font-size: 18px;
+    margin-bottom: 10px;
+    background: none;
+    border: none;
+}
+.media-heading {
+    color: #2e7d32;
+}
+.training-video-heading {
+    color: #8e24aa;
+}
+.audio-player {
+    width: 80%;
+    max-width: 400px;
+    border: none;
+    border-radius: 0;
+    background: none;
+    padding: 0;
+}
+.local-video {
+    border: none;
+    border-radius: 0;
+    background: none;
+}
+@media (max-width: 768px) {
+    .main-heading {
+        font-size: 22px;
+        padding: 0;
+    }
+    .video-frame,
+    .local-video {
+        width: 100%;
+        max-width: 400px;
+        height: auto;
+    }
+    .audio-player {
+        width: 90%;
+    }
+    .video-container,
+    .media-container,
+    .training-video-container {
+        margin: 20px 0;
+        padding: 0;
+    }
+}
